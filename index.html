@@ -350,47 +350,64 @@
         </div>
     </div>
     <div class="co_body">
-        <div class="mainContent">
-            <div class="tabsContainer">
-                <ul class="tablist" role="tablist">
-                    <li id="tab1" class="tab" role="tab" aria-controls="panel1" aria-selected="true" tabindex="0">Prices</li>
-                    <li id="tab2" class="tab" role="tab" aria-controls="panel2" aria-selected="false" tabindex="0">Features</li>
-                    <li id="tab3" class="tab" role="tab" aria-controls="panel3" aria-selected="false" tabindex="0">News</li>
-                    <li id="tab4" class="tab" role="tab" aria-controls="panel4" aria-selected="false" tabindex="0">Other</li>
-                </ul>
-                <div id="panel1" class="panel" role="tabpanel" aria-labelledby="tab1" aria-hidden="false">
-                    <h3 tabindex="0">Prices</h3> 
-                    <p tabindex="0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                </div>
-                <div id="panel2" class="panel" role="tabpanel" aria-labelledby="tab2" aria-hidden="true">
-                    <h3 tabindex="0">Features</h3> 
-                    <p tabindex="0">CSS selectors are used to bind aria-selected and the classes for selected or non selected tab panels. Keyboard accessibility is given by adding the enter key to the basic click event in the jQuery code. The tabs can also toggle using the left and right arrow keys (as a jQuery function)</p>
-                </div>
-                <div id="panel3" class="panel" role="tabpanel" aria-labelledby="tab3" aria-hidden="true">
-                    <h3 tabindex="0">News</h3> 
-                    <p tabindex="0">I've commented up the script if you want to have a look. The trick is in allowing users to switch focus between the aria-selected tab and the content itself without ...
-                    You visited this page on 7/5/16.</p>
-                </div>
-                <div id="panel4" class="panel" role="tabpanel" aria-labelledby="tab4" aria-hidden="true"> 
-                    <h3 tabindex="0">Other</h3> 
-                    <p tabindex="0">Feb 2, 2013 - The best keyboard interaction model is this: Left and Right arrow keys should move focus to the new tab, but not yet select it. Space should actually perform the hiding and un-hiding of the tab panels and adjust the aria-selected attributes. Tab should immediately move to the first control within the tab panel.</p>
+        <div class="bodyContainer">
+            <div class="mainContent">
+                <div class="browseContainer">
+                    <h3 class="mainHeading">Browse</h3>
+                    <div class="tabsContainer">
+                        <ul class="tablist" role="tablist">
+                            <li id="tab1" class="tab" role="tab" aria-controls="panel1" aria-selected="true" tabindex="0">Prices</li>
+                            <li id="tab2" class="tab" role="tab" aria-controls="panel2" aria-selected="false" tabindex="0">Features</li>
+                            <li id="tab3" class="tab" role="tab" aria-controls="panel3" aria-selected="false" tabindex="0">News</li>
+                            <li id="tab4" class="tab" role="tab" aria-controls="panel4" aria-selected="false" tabindex="0">Other</li>
+                        </ul>
+                        <div id="panel1" class="panel" role="tabpanel" aria-labelledby="tab1" aria-hidden="false">
+                            <h3 tabindex="0">Prices</h3> 
+                            <p tabindex="0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        </div>
+                        <div id="panel2" class="panel" role="tabpanel" aria-labelledby="tab2" aria-hidden="true">
+                            <h3 tabindex="0">Features</h3> 
+                            <p tabindex="0">CSS selectors are used to bind aria-selected and the classes for selected or non selected tab panels. Keyboard accessibility is given by adding the enter key to the basic click event in the jQuery code. The tabs can also toggle using the left and right arrow keys (as a jQuery function)</p>
+                        </div>
+                        <div id="panel3" class="panel" role="tabpanel" aria-labelledby="tab3" aria-hidden="true">
+                            <h3 tabindex="0">News</h3> 
+                            <p tabindex="0">I've commented up the script if you want to have a look. The trick is in allowing users to switch focus between the aria-selected tab and the content itself without ...
+                            You visited this page on 7/5/16.</p>
+                        </div>
+                        <div id="panel4" class="panel" role="tabpanel" aria-labelledby="tab4" aria-hidden="true"> 
+                            <h3 tabindex="0">Other</h3> 
+                            <p tabindex="0">Feb 2, 2013 - The best keyboard interaction model is this: Left and Right arrow keys should move focus to the new tab, but not yet select it. Space should actually perform the hiding and un-hiding of the tab panels and adjust the aria-selected attributes. Tab should immediately move to the first control within the tab panel.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <aside class="rightColumn">
+                <div class="usefulDocumentsContainer">
+                    <h3 class="mainHeading">Useful Documents</h3>
+                    <ul>
+                        <li><a href="#">link 1</a></li>
+                        <li><a href="#">link 2</a></li>
+                        <li><a href="#">link 3</a></li>
+                        <li><a href="#">link 4</a></li>
+                        <li><a href="#">link 5</a></li>
+                        <li><a href="#">link 6</a></li>
+                        <li><a href="#">link 7</a></li>
+                    </ul>
+                </div>
+                <div class="usefulDocumentsContainer">
+                    <h3 class="mainHeading">Useful Documents</h3>
+                    <ul>
+                        <li><a href="#">link 1</a></li>
+                        <li><a href="#">link 2</a></li>
+                        <li><a href="#">link 3</a></li>
+                        <li><a href="#">link 4</a></li>
+                        <li><a href="#">link 5</a></li>
+                        <li><a href="#">link 6</a></li>
+                        <li><a href="#">link 7</a></li>
+                    </ul>
+                </div>
+            </aside>
         </div>
-        <aside class="rightColumn">
-            <div class="columnContainer">
-                <h3>Useful Documents</h3>
-                <ul>
-                    <li><a href="#">link 1</a></li>
-                    <li><a href="#">link 2</a></li>
-                    <li><a href="#">link 3</a></li>
-                    <li><a href="#">link 4</a></li>
-                    <li><a href="#">link 5</a></li>
-                    <li><a href="#">link 6</a></li>
-                    <li><a href="#">link 7</a></li>
-                </ul>
-            </div>
-        </aside>
     </div>
     <div class="co_footer"></div>
 
