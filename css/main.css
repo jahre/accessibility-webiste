@@ -224,3 +224,9 @@ __________________________________________________*/
 .panel[aria-hidden='true']{
     display: none;
 }
+/* Slider Styles */
+.sliderImg {
+    width: 50%;
+    margin: 10px;
+    float: left;
+}
